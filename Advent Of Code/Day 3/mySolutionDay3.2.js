@@ -4,9 +4,29 @@ try {
   const data = fs.readFileSync("./data.txt", "utf8");
   const lines = data.split("\n");
 
+<<<<<<< HEAD
 
   function letterToPriority(letter) {
     if (/[a-z]/.test(letter)) {
+=======
+  function genCharArray(charA, charZ) {
+    let a = [],
+      i = charA.charCodeAt(0),
+      j = charZ.charCodeAt(0);
+    for (; i <= j; i++) {
+      a.push(String.fromCharCode(i));
+    }
+    return a;
+  }
+
+  let alphaArray = genCharArray("a", "z").concat(genCharArray("A", "Z"));
+  let repeatedArrays = [];
+
+
+  function letterToPriority(letter) {
+    if (/[a-z]/.test(letter)) {
+      //lowercase
+>>>>>>> dd72c02840a402d548dc41326bab6af5ba8a43f1
       return letter.charCodeAt(0) - 96;
     } else {
       return letter.charCodeAt(0) - 65 + 27;
