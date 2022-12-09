@@ -1,21 +1,21 @@
 //1 --> 2 --> 3 --> 4 --> null
 
 //La linked List nos regresa un objeto, como la que se muestra a continuación
-let singlyLinkedList = {
-    head: {
-        value: 1,
-        next: {
-            value: 2,
-            next: {
-                value: 3,
-                next: {
-                    value: 4,
-                    next: null
-                }
-            }
-        }
-    }
-}
+// let singlyLinkedList = {
+//     head: {
+//         value: 1,
+//         next: {
+//             value: 2,
+//             next: {
+//                 value: 3,
+//                 next: {
+//                     value: 4,
+//                     next: null
+//                 }
+//             }
+//         }
+//     }
+// }
 
 class Node {
     constructor(value) {

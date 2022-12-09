@@ -1,0 +1,10 @@
+search-insert-position: estuvo dificil, supuestamente nivel easy
+
+- sqrt(x): Runtime Beats:72.99%, Memory Beats: 10.89%   
+           estuvo dificil, supuestamente nivel easy, pendiente optimizar más.
+
+missingNumber: Runtime Beats:22.90%, Memory Beats: 43.93%
+               estuvo dificil, supuestamente nivel easy, pendiente optimizar más.
+
+
+IntersectionofTwoArrays: Runtime Beats:97.87%, Memory Beats: 74.63%

@@ -12,15 +12,19 @@ and you may not use the same element twice.
 
 You can return the answer in any order. */
 
+let nums = [3,2,3];
 
 var twoSum = function(nums, target) {
+    // We create an instance of Map 
     let map = new Map();
+    // We iterate over the array nums
     for(let i=0; i < nums.length; i++){
         let num1 = nums[i];
         let num2 = target - num1;
         if(map.has(num2)) {
             return [i, map.get(num2)];
         }
+        // We add the values to map
         map.set(num1, i)
     }
 }    

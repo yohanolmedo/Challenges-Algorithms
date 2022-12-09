@@ -41,10 +41,7 @@ function matchingStrings(strings, queries) {
   return arrayResults;
 }
 
-// let array3 = [10, 11, 3, 20, 5, 10];
-// let queries = [11, 5, 10];
-
-let array3 = [10, 11, 3, 20, 5, 10];
-let queries = [11, 5, 10];
+let array3 = ['ab', 'ab', 'abc'];
+let queries = ['ab', 'abc', 'bc'];
 
 matchingStrings(array3, queries);
