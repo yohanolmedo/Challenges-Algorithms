@@ -16,7 +16,7 @@ function cutTheSticks(arr) {
     let lastArray = [];
 
     for (let j = 0; j <= partialArray.length - 1; j++) {
-      if (partialArray[j] >= firstElement) {
+      if (partialArray[j] >= firstElement) 
         lastArray.push(partialArray);
       }
     }
@@ -24,5 +24,5 @@ function cutTheSticks(arr) {
   }
 
   return [...new Set(arrayOutput)];
-}
+
 console.log(cutTheSticks(arraySearch));

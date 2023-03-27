@@ -14,7 +14,7 @@ var majorityElement = function(nums) {
     for(let i=0; i<nums.length; i++) {
         let acumulator = 1;
         let number = nums[i];   
-        console.log(number)
+        console.log(number, "number")
      
         
         if(number === nums[i+1]){
