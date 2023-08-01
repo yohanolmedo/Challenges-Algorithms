@@ -1,5 +1,5 @@
 // Sort the following array with Selected:
-const arr = [64, 34, 25, 12, 22, 11, 90];
+const arr = [64, 34, 25, 12, 22, 90, 11];
 
 function SelectedSort(array) {
   for (let i = 0; i < array.length; i++) {
